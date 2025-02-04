@@ -1,0 +1,14 @@
+{
+  "source": ["aws.s3"],
+  "detail-type": ["Object Created"],
+  "detail": {
+    "bucket": {
+      "name": ["airlines-data-ingestion-project"]
+    },
+    "object": {
+      "key": [{
+        "suffix": ".csv"
+      }]
+    }
+  }
+}

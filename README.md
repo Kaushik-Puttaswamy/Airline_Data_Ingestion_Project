@@ -28,7 +28,8 @@ EventBridge monitors the S3 bucket for new CSV files and triggers Step Functions
 
 EventBridge Rule Configuration (event_bridge_rule.json):
 
-``` {
+```
+{
   "source": ["aws.s3"],
   "detail-type": ["Object Created"],
   "detail": {
@@ -41,4 +42,5 @@ EventBridge Rule Configuration (event_bridge_rule.json):
       }]
     }
   }
-} ```
+}
+```

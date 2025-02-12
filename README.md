@@ -19,3 +19,26 @@ The architecture consists of:
 	5.	Amazon Redshift: Stores the cleaned and processed data for querying.
  
 	6.	Amazon SNS: Sends notifications about job status.
+
+## Project Execution on AWS
+
+1. Setting Up EventBridge
+
+EventBridge monitors the S3 bucket for new CSV files and triggers Step Functions.
+
+EventBridge Rule Configuration (event_bridge_rule.json):
+
+```{
+  "source": ["aws.s3"],
+  "detail-type": ["Object Created"],
+  "detail": {
+    "bucket": {
+      "name": ["airlines-data-ingestion-project"]
+    },
+    "object": {
+      "key": [{
+        "suffix": ".csv"
+      }]
+    }
+  }
+}```

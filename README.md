@@ -117,5 +117,17 @@ Querying processed data:
 SELECT * FROM airlines.daily_flights_processed LIMIT 5;
 
 ```
+📌 [Include the screenshot: Querying_Flight_Processed_Data_in_Redshift.png]
+
+5. S3 Data Storage
+
+Flight data and airport codes are stored in S3 before processing.
+📌 [Include the screenshot: S3_Setup_for_Airportdim_and_Flight_Data.png]
+
+6. SNS Notifications for Job Status
+
+Amazon SNS sends notifications on Glue job success/failure.
+📌 [Include the screenshot: SNS_Notification_of_Job_Status.png]
+
 
 

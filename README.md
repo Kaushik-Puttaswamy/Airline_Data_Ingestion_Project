@@ -130,4 +130,14 @@ Amazon SNS sends notifications on Glue job success/failure.
 📌 [Include the screenshot: SNS_Notification_of_Job_Status.png]
 
 
-
+How to Run the Project
+	
+ 1.	Upload new flight data to the S3 bucket (airlines-data-ingestion-project).
+	
+ 2.	EventBridge triggers the Step Function workflow.
+	
+ 3.	Glue ETL job processes the data.
+	
+ 4.	Processed data is stored in Amazon Redshift.
+	
+ 5.	Query Redshift for flight insights.

@@ -104,8 +104,18 @@ CREATE TABLE airlines.daily_flights_processed (
     arr_delay BIGINT
 );
 
+
+
 ```
 📌 [Include the screenshot: Redshift_Cluster_Setup.png]
 
 📌 [Include the screenshot: Redshift_Permision_Policies.png]
+
+Querying processed data:
+
+```
+SELECT * FROM airlines.daily_flights_processed LIMIT 5;
+
+```
+
 

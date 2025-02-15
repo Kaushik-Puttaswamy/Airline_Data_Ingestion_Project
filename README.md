@@ -10,17 +10,17 @@ The Airline Data Ingestion & Processing Project is a cloud-based ETL pipeline bu
 
 The architecture consists of:
 
-1.	Data Source: Flight data in CSV format is uploaded to an S3 bucket from airline client.
+1.	Data Source: Flight data (airport_dim and flight_raw) in CSV format is uploaded to an S3 bucket from airline client and flight_raw is copied to redshift.
 
-2.	
+2.	Glue Crawler: Crawl the the airport_dim data and store the data in glue data catalog.
  
-3.	Event Trigger: AWS EventBridge detects new file uploads and triggers a Step Function workflow.
+3.	Event Bridge Rule: AWS EventBridge detects new file uploads and triggers a Step Function workflow.
  
-4.	Step Functions: Automates the ETL process by orchestrating Glue Crawlers and Glue Jobs.
+4.	Step Functions: Automates the ETL process by orchestrating Glue Crawler and Glue Jobs.
  
 5.	AWS Glue ETL: Processes and transforms raw flight data.
  
-6.	Amazon Redshift: Stores the cleaned and processed data for querying.
+6.	Amazon Redshift: Stores the cleaned and processed flight data for querying.
  
 7.	Amazon SNS: Sends notifications about job status.
 

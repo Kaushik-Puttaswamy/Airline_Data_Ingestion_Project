@@ -6,6 +6,8 @@ The Airline Data Ingestion & Processing Project is a cloud-based ETL pipeline bu
 
 ## Project Architecture
 
+![Project Architecture](https://github.com/Kaushik-Puttaswamy/Airline-Data-Ingestion-Processing-on-AWS/blob/main/Project%20Architecture.png)
+
 The architecture consists of:
 
 1.	Data Source: Flight data in CSV format is uploaded to an S3 bucket.

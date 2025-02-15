@@ -12,7 +12,7 @@ The architecture consists of:
 
 1.	Data Source: Flight data (airport_dim and flight_raw) in CSV format is uploaded to an S3 bucket from airline client and flight_raw is copied to redshift.
 
-2.	Glue Crawler: Crawl the the airport_dim data and store the data in glue data catalog.
+2.	Glue Crawler: Crawl the the airport_dim data and processed flight_raw data from redshift and store the data in glue data catalog.
  
 3.	Event Bridge Rule: AWS EventBridge detects new file uploads and triggers a Step Function workflow.
  

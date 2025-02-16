@@ -107,9 +107,6 @@ CREATE TABLE airlines.daily_flights_processed (
     dep_delay BIGINT,
     arr_delay BIGINT
 );
-
-
-
 ```
 ![Redshift_Cluster_Setup.png](https://github.com/Kaushik-Puttaswamy/Airline-Data-Ingestion-Processing-on-AWS/blob/main/Project%20execution%20screenshot%20on%20AWS/Redshift_Cluster_Setup.png)
 

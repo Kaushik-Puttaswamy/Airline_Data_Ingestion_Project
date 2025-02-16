@@ -70,7 +70,7 @@ Key steps:
 
 Step Functions automate the execution of Glue Crawlers and Glue Jobs.
 
-📌 [Include the screenshot: Step_Function_Job_Graph_View.png]
+![Step_Function_Job_Graph_View.png](https://github.com/Kaushik-Puttaswamy/Airline-Data-Ingestion-Processing-on-AWS/blob/main/Project%20execution%20screenshot%20on%20AWS/Step_Function_Job_Graph_View.png)
 
 Configuration (step_function_config.json):
 	

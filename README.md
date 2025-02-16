@@ -28,7 +28,7 @@ The architecture consists of:
 
 1. Setting Up EventBridge
 
-📌 [Include the screenshot: Event_Bridge_Setup.png]
+![Event_Bridge_Setup.png](https://github.com/Kaushik-Puttaswamy/Airline-Data-Ingestion-Processing-on-AWS/blob/main/Project%20execution%20screenshot%20on%20AWS/Event_Bridge_Setup.png)
 
 EventBridge monitors the S3 bucket for new CSV files and triggers Step Functions.
 

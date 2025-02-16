@@ -50,13 +50,13 @@ EventBridge Rule Configuration (event_bridge_rule.json):
   }
 }
 ```
-📌 [Include the screenshot: Event_Bridge_Permision_Policies.png]
+![Event_Bridge_Permision_Policies.png](https://github.com/Kaushik-Puttaswamy/Airline-Data-Ingestion-Processing-on-AWS/blob/main/Project%20execution%20screenshot%20on%20AWS/Event_Bridge_Permision_Policies.png)
 
 2. Setting Up AWS Glue ETL Job
 
 The Glue job (glue_etl_job.py) extracts flight data from S3, enriches it with airport details, and loads it into Redshift.
 
-📌 [Include the screenshot: Glue_ETL_Job_Status.png]
+![Glue_ETL_Job_Status.png](https://github.com/Kaushik-Puttaswamy/Airline-Data-Ingestion-Processing-on-AWS/blob/main/Project%20execution%20screenshot%20on%20AWS/Glue_ETL_Job_Status.png)
 
 Key steps:
 	

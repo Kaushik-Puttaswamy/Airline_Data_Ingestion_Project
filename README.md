@@ -111,9 +111,9 @@ CREATE TABLE airlines.daily_flights_processed (
 
 
 ```
-📌 [Include the screenshot: Redshift_Cluster_Setup.png]
+![Redshift_Cluster_Setup.png](https://github.com/Kaushik-Puttaswamy/Airline-Data-Ingestion-Processing-on-AWS/blob/main/Project%20execution%20screenshot%20on%20AWS/Redshift_Cluster_Setup.png)
 
-📌 [Include the screenshot: Redshift_Permision_Policies.png]
+![Redshift_Permision_Policies.png](https://github.com/Kaushik-Puttaswamy/Airline-Data-Ingestion-Processing-on-AWS/blob/main/Project%20execution%20screenshot%20on%20AWS/Redshift_Permision_Policies.png)
 
 Querying processed data:
 

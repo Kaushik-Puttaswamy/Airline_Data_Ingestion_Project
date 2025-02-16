@@ -87,7 +87,7 @@ Configuration (step_function_config.json):
 
 ![Step_Function_Permision_Policies.png](https://github.com/Kaushik-Puttaswamy/Airline-Data-Ingestion-Processing-on-AWS/blob/main/Project%20execution%20screenshot%20on%20AWS/Step_Function_Permision_Policies.png)
 
-📌 [Include the screenshot: Step_Function_Status.png]
+![Step_Function_Status.png](https://github.com/Kaushik-Puttaswamy/Airline-Data-Ingestion-Processing-on-AWS/blob/main/Project%20execution%20screenshot%20on%20AWS/Step_Function_Status.png)
 
 4. Amazon Redshift for Processed Data Storage
 

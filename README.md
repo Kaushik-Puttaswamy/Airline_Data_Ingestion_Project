@@ -121,17 +121,18 @@ Querying processed data:
 SELECT * FROM airlines.daily_flights_processed LIMIT 5;
 
 ```
-📌 [Include the screenshot: Querying_Flight_Processed_Data_in_Redshift.png]
+![Querying_Flight_Processed_Data_in_Redshift.png](https://github.com/Kaushik-Puttaswamy/Airline-Data-Ingestion-Processing-on-AWS/blob/main/Project%20execution%20screenshot%20on%20AWS/Querying_Flight_Processed_Data_in_Redshift.png)
 
 5. S3 Data Storage
 
 Flight data and airport codes are stored in S3 before processing.
-📌 [Include the screenshot: S3_Setup_for_Airportdim_and_Flight_Data.png]
+
+![S3_Setup_for_Airportdim_and_Flight_Data.png](https://github.com/Kaushik-Puttaswamy/Airline-Data-Ingestion-Processing-on-AWS/blob/main/Project%20execution%20screenshot%20on%20AWS/S3_Setup_for_Airportdim_and_Flight_Data.png)
 
 6. SNS Notifications for Job Status
 
 Amazon SNS sends notifications on Glue job success/failure.
-📌 [Include the screenshot: SNS_Notification_of_Job_Status.png]
+![SNS_Notification_of_Job_Status.png](https://github.com/Kaushik-Puttaswamy/Airline-Data-Ingestion-Processing-on-AWS/blob/main/Project%20execution%20screenshot%20on%20AWS/SNS_Notification_of_Job_Status.png)
 
 
 How to Run the Project
